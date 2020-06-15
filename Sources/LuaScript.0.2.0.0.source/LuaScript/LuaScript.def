@@ -1,0 +1,7 @@
+LIBRARY	"LuaScript"
+
+EXPORTS
+	DllGetClassObject
+	DllCanUnloadNow
+	DllRegisterServer
+	DllUnregisterServer

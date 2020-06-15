@@ -1,0 +1,17 @@
+<job>
+<script language="VBScript">
+	sVBS = "vbs!!!":
+	wscript.echo sVBS:
+
+'	wscript.echo globals.sLua:		'// this is NOT supported yet.
+</script>
+
+<script language="LuaScript">
+	sLua = "lua!!!"
+	WScript:echo(sLua)
+
+	WScript:echo(globals:sVBS())	-- this is SUPPORTED.
+
+</script>
+
+</job>
